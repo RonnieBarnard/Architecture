@@ -1,0 +1,31 @@
+<template bindable="header,isbusy,showback">
+    <require from="../converters/languageConverter"></require>
+
+    <div class="row">
+        <div style="margin-left: 20px;
+                    margin-top: 5px;
+                    padding: 5px;" class="col-md-12">
+            <span if.bind="showback" style="text-align: left; margin-left: 5px; float: left; cursor: pointer;" class="fa fa-arrow-circle-left fa-4x"
+                onclick="history.back();"></span>
+            <h2 style="text-align: left; margin-left: 15px; float: left">${header}</h2>
+            <div style="text-align: left; margin-top: 10px; margin-right: 40px; float: right;">
+                <template replaceable part="buttons">
+                </template>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="padding: 10px">
+        <div class="col-md-12">
+            <div style="overflow: auto; overflow-x: hidden; height: calc(100vh - 185px);">
+                <template replaceable part="content">
+                </template>
+            </div>
+            <div if.bind="isbusy" style="position: absolute; background-color: #4b4b4b; background-color: rgba(75, 75, 75, 0.90); top: 0px; left: 0; width: 100%; height: calc(100vh);">
+                <div style="position: absolute; top: calc(100vh / 2 - 120px); left: calc(50% - 150px); text-align: center">
+                    <i class="fa fa-refresh fa-spin fa-5x" style="color: white;"></i>
+                    <h2 style="color: white"><klabel text.bind="'System.Loading' | language"></klabel></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

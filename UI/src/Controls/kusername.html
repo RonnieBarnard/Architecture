@@ -1,0 +1,9 @@
+<template>
+    <require from="../Converters/languageConverter"></require>
+    <div class="form-group" validation-errors.bind="usernameErrors" class.bind="usernameErrors.length ? 'has-error' : ''">
+        <label class="control-label" for="username">${label | language}</label>
+        <input class="form-control" id="username" placeholder.bind="placeholder | language" style="width: 100%; max-width: 500px; margin-right: 10px"
+            type="text" value.two-way="value & validate">
+        <span class="help-block" repeat.for="errorInfo of usernameErrors">${errorInfo.error.message}</span>
+    </div>
+</template>

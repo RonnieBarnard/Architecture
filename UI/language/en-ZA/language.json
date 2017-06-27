@@ -1,0 +1,18 @@
+{
+    "locale": "en-ZA",
+    "items": [
+        { "key": "System.Loading", "value": "In prosess, wag asseblief..." },
+
+        { "key": "MessageBox.DefaultHeader", "value": "Neem Kennis!" },
+        { "key": "MessageBox.QuestionHeader", "value": "Vraag" },
+        { "key": "MessageBox.DefaultMessage", "value": "Is jy seker?" },
+
+        { "key": "System.AreyouSureSignOut", "value": "Is jy seker dat jy will uit teken?" },
+
+        { "key": "Login.UsernameNotValid", "value": "Die gebruikers naam het foute op" },
+        { "key": "Login.Username.Label", "value": "Gebruikers Naam / Gebruikers frase" },
+        { "key": "Login.Username.Placeholder", "value": "b.v. Joe se plesier huis" },
+        { "key": "Login.Password.Label", "value": "Sekuriteits woord / Sekuriteits Frase" },
+        { "key": "Login.Password.Placeholder", "value": "b.v. hierdie is my sekuriteits woord" }
+    ]
+}

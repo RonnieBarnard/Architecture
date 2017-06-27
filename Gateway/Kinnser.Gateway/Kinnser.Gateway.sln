@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinnser.Gateway", "Kinnser.Gateway\Kinnser.Gateway.csproj", "{829410BB-EAB5-44F6-8599-08D8A453ECC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinnser.Gateway.Tests", "Kinnser.Gateway.Tests\Kinnser.Gateway.Tests.csproj", "{B46F83C0-53B2-4BD6-AFB9-62D0BB6D24FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinnser.Common", "..\Kinnser.Common\Kinnser.Common.csproj", "{A5C8DA88-5355-4A95-BB56-DB0B91CC5023}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{829410BB-EAB5-44F6-8599-08D8A453ECC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829410BB-EAB5-44F6-8599-08D8A453ECC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829410BB-EAB5-44F6-8599-08D8A453ECC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829410BB-EAB5-44F6-8599-08D8A453ECC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B46F83C0-53B2-4BD6-AFB9-62D0BB6D24FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B46F83C0-53B2-4BD6-AFB9-62D0BB6D24FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B46F83C0-53B2-4BD6-AFB9-62D0BB6D24FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B46F83C0-53B2-4BD6-AFB9-62D0BB6D24FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5C8DA88-5355-4A95-BB56-DB0B91CC5023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5C8DA88-5355-4A95-BB56-DB0B91CC5023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5C8DA88-5355-4A95-BB56-DB0B91CC5023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5C8DA88-5355-4A95-BB56-DB0B91CC5023}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

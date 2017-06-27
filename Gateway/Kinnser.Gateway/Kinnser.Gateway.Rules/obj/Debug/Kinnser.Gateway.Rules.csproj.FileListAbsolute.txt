@@ -1,0 +1,11 @@
+D:\Kinnser\Software\Gateway\Kinnser.Gateway\Kinnser.Gateway.Rules\bin\Debug\Kinnser.Gateway.Rules.dll
+D:\Kinnser\Software\Gateway\Kinnser.Gateway\Kinnser.Gateway.Rules\bin\Debug\Kinnser.Gateway.Rules.pdb
+D:\Kinnser\Software\Gateway\Kinnser.Gateway\Kinnser.Gateway.Rules\bin\Debug\Kinnser.DomainModel.dll
+D:\Kinnser\Software\Gateway\Kinnser.Gateway\Kinnser.Gateway.Rules\bin\Debug\Kinnser.Gateway.Framework.dll
+D:\Kinnser\Software\Gateway\Kinnser.Gateway\Kinnser.Gateway.Rules\bin\Debug\Kinnser.Gateway.Interfaces.dll
+D:\Kinnser\Software\Gateway\Kinnser.Gateway\Kinnser.Gateway.Rules\bin\Debug\Kinnser.DomainModel.pdb
+D:\Kinnser\Software\Gateway\Kinnser.Gateway\Kinnser.Gateway.Rules\bin\Debug\Kinnser.Gateway.Framework.pdb
+D:\Kinnser\Software\Gateway\Kinnser.Gateway\Kinnser.Gateway.Rules\bin\Debug\Kinnser.Gateway.Interfaces.pdb
+D:\Kinnser\Software\Gateway\Kinnser.Gateway\Kinnser.Gateway.Rules\obj\Debug\Kinnser.Gateway.Rules.csprojResolveAssemblyReference.cache
+D:\Kinnser\Software\Gateway\Kinnser.Gateway\Kinnser.Gateway.Rules\obj\Debug\Kinnser.Gateway.Rules.dll
+D:\Kinnser\Software\Gateway\Kinnser.Gateway\Kinnser.Gateway.Rules\obj\Debug\Kinnser.Gateway.Rules.pdb

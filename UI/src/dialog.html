@@ -1,0 +1,16 @@
+﻿<template>
+    <ai-dialog style="background-color: #aacd27;">
+        <ai-dialog-header>
+            <span style="font-size: 18pt; font-weight: bold; color: white">${header}</span>
+        </ai-dialog-header>
+        
+        <ai-dialog-body style="background-color: white; max-height: 800px; max-width: 1024px">
+            <compose view-model="${model}.js"></compose>
+        </ai-dialog-body>
+
+        <ai-dialog-footer style="background-color: white">
+            <button if.bind="isYes" click.trigger="save()" class="fa fa-check"> ${content.submittext}</button>
+            <button if.bind="isYes" click.trigger="controller.cancel()" class="fa fa-close"> ${content.canceltext}</button>
+        </ai-dialog-footer>
+    </ai-dialog>
+</template>

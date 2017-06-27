@@ -1,0 +1,5 @@
+D:\Kinnser\Software\Gateway\Kinnser.Gateway\Kinnser.Gateway.Interfaces\bin\Debug\Kinnser.Gateway.Interfaces.dll
+D:\Kinnser\Software\Gateway\Kinnser.Gateway\Kinnser.Gateway.Interfaces\bin\Debug\Kinnser.Gateway.Interfaces.pdb
+D:\Kinnser\Software\Gateway\Kinnser.Gateway\Kinnser.Gateway.Interfaces\obj\Debug\Kinnser.Gateway.Interfaces.dll
+D:\Kinnser\Software\Gateway\Kinnser.Gateway\Kinnser.Gateway.Interfaces\obj\Debug\Kinnser.Gateway.Interfaces.pdb
+D:\Kinnser\Software\Gateway\Kinnser.Gateway\Kinnser.Gateway.Interfaces\obj\Debug\Kinnser.Gateway.Interfaces.csprojResolveAssemblyReference.cache

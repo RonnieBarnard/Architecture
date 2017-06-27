@@ -1,0 +1,55 @@
+<template>
+    <page isbusy.bind="isbusy" header.bind="heading" showback.bind="false">
+        <require from="../../blur-image"></require>
+
+        <template replace-part="content">
+
+            <div class="col-md-10">
+                <div class="card" style="margin: 0 auto; width: 100%; max-width: 530px; padding-bottom: 20px; margin-top: 50px; color: black; background-color: white">
+                    <div>
+                        <canvas blur-image.bind="image" class="header-bg" height="40" width="150"></canvas>
+                        <div class="avatar">
+                            <img ref="image" src="/images/security.jpeg?v=1.0.1" />
+                        </div>
+                    </div>
+
+                    <div style="margin-left: 15px; text-align: left">
+                        <form role="form" submit.delegate="signin($event)" autocomplete="off">
+                            <div>
+                                <kusername label="Login.Username.Label" placeholder="Login.Username.Placeholder" value.two-way="username" />
+                            </div>
+                            <div>
+                                <kpassword label="Login.Password.Label" placeholder="Login.Password.Placeholder" value.two-way="password" />
+                            </div>
+
+                            <div style="text-align: center; margin-top: 30px">
+                                <div class="row">
+                                    <button class="btn btn-danger fa fa-save" style="width: 150px" type="submit">&nbsp;<klabel text="Login.SubmitButton.Label"></klabel></button>
+                                    <!--<kbutton class="btn btn-danger fa fa-save" type="submit" label="Login.SubmitButton.Label"></kbutton>-->
+                                </div>
+                                <div class="row">
+                                    <a href="/#/forgotpassword" style="cursor: pointer">
+                                        <klabel text="Login.ForgotPassword.Label"></klabel>
+                                    </a>
+                                    &nbsp;|
+                                    <a href="/#/unlockaccount" style="cursor: pointer">
+                                        <klabel text="Login.UnlockAccount.Label"></klabel>
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2" style="margin: 0 auto; width: 100px;">
+                <div class="row"><img src="/images/riskpoint.knet.png"></div>
+                <div class="row"><img src="/images/Referral.knet.jpg"></div>
+            </div>
+
+            <div class="row">
+                <!--<compose view.bind=""></compose>-->
+            </div>
+        </template>
+    </page>
+</template>

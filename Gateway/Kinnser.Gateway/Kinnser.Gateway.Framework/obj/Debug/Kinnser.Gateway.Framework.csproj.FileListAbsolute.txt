@@ -1,0 +1,7 @@
+D:\Kinnser\Software\Gateway\Kinnser.Gateway\Kinnser.Gateway.Framework\bin\Debug\Kinnser.Gateway.Framework.dll
+D:\Kinnser\Software\Gateway\Kinnser.Gateway\Kinnser.Gateway.Framework\bin\Debug\Kinnser.Gateway.Framework.pdb
+D:\Kinnser\Software\Gateway\Kinnser.Gateway\Kinnser.Gateway.Framework\bin\Debug\Newtonsoft.Json.dll
+D:\Kinnser\Software\Gateway\Kinnser.Gateway\Kinnser.Gateway.Framework\bin\Debug\Newtonsoft.Json.xml
+D:\Kinnser\Software\Gateway\Kinnser.Gateway\Kinnser.Gateway.Framework\obj\Debug\Kinnser.Gateway.Framework.dll
+D:\Kinnser\Software\Gateway\Kinnser.Gateway\Kinnser.Gateway.Framework\obj\Debug\Kinnser.Gateway.Framework.pdb
+D:\Kinnser\Software\Gateway\Kinnser.Gateway\Kinnser.Gateway.Framework\obj\Debug\Kinnser.Gateway.Framework.csprojResolveAssemblyReference.cache

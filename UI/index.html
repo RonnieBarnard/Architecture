@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Kinnser Software System</title>
+
+  <!-- Turn off any type of Caching on the client side -->
+  <meta content="max-age=0" http-equiv="cache-control" />
+  <meta content="no-cache" http-equiv="cache-control" />
+  <meta content="no-store" http-equiv="cache-control" />
+  <meta content="0" http-equiv="expires" />
+  <meta content="Tue, 01 Jan 1980 1:00:00 GMT" http-equiv="expires" />
+  <meta content="no-cache" http-equiv="pragma" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--The FontAwesome version is locked at 4.6.3 in the package.json file to keep this from breaking.-->
+  <link rel="stylesheet" href="jspm_packages/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/styles.css">
+
+  <script src="vendors/js/jquery.min.js"></script>
+  <script src="vendors/js/jszip.min.js"></script>
+  <script src="vendors/js/kendo.all.min.js"></script>
+
+</head>
+
+<body aurelia-app="main">
+  <div class="splash">
+    <img src="/images/logo.png?v=1.0.1" style="margin-bottom: 20px;" alt="Kinnser Software Inc" width="300" />
+    <br />
+    <div class="message">Kinnser Software System</div>
+    <br />
+    <i class="fa fa-spinner fa-spin fa-4x"></i>
+  </div>
+
+  <script src="jspm_packages/system.js"></script>
+  <script src="config.js"></script>
+  <script>
+    System.import('aurelia-bootstrapper');
+  </script>
+</body>
+
+</html>

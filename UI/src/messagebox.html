@@ -1,0 +1,19 @@
+﻿<template>
+    <require from="./Converters/languageConverter"></require>
+    <ai-dialog style="background-color: #aacd27;">
+        <ai-dialog-header>
+            <span style="font-size: 18pt; font-weight: bold; color: white">${header}</span>
+        </ai-dialog-header>
+        
+        <ai-dialog-body style="background-color: white; max-width: 1024px; max-height: calc(vh - 200); overflow: auto">
+            <pre style="font-size: 16px; border: none; font-family: 'source-sans-pro', 'Helvetica Neue', Helvetica, Arial, sans-serif">${message}</pre>
+        </ai-dialog-body>
+
+        <ai-dialog-footer style="background-color: white">
+            <button if.bind="isOk" click.trigger="controller.ok(dialogContent)" class="fa fa-thumbs-up"> <klabel text.bind="'MessageBox.Ok' | language"></klabel></button>
+            <button if.bind="isCancel" click.trigger="controller.cancel()" class="fa fa-close"> <klabel text.bind="'MessageBox.Cancel' | language"></klabel></button>
+            <button if.bind="isYesNo" click.trigger="controller.ok(dialogContent)" class="fa fa-check"> <klabel text.bind="'MessageBox.Yes' | language"></klabel></button>
+            <button if.bind="isYesNo" click.trigger="controller.cancel()" class="fa fa-close"> <klabel text.bind="'MessageBox.No' | language"></klabel></button>
+        </ai-dialog-footer>
+    </ai-dialog>
+</template>

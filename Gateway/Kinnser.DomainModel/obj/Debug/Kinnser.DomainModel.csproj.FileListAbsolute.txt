@@ -1,0 +1,16 @@
+D:\Kinnser\Software\Gateway\Kinnser.DomainModel\bin\Debug\Kinnser.DomainModel.dll
+D:\Kinnser\Software\Gateway\Kinnser.DomainModel\bin\Debug\Kinnser.DomainModel.pdb
+D:\Kinnser\Software\Gateway\Kinnser.DomainModel\bin\Debug\Kinnser.Common.dll
+D:\Kinnser\Software\Gateway\Kinnser.DomainModel\bin\Debug\Kinnser.Gateway.DataLayer.dll
+D:\Kinnser\Software\Gateway\Kinnser.DomainModel\bin\Debug\Kinnser.Gateway.Framework.dll
+D:\Kinnser\Software\Gateway\Kinnser.DomainModel\bin\Debug\Kinnser.Gateway.Interfaces.dll
+D:\Kinnser\Software\Gateway\Kinnser.DomainModel\bin\Debug\EntityFramework.dll
+D:\Kinnser\Software\Gateway\Kinnser.DomainModel\bin\Debug\Kinnser.Common.pdb
+D:\Kinnser\Software\Gateway\Kinnser.DomainModel\bin\Debug\Kinnser.Gateway.DataLayer.pdb
+D:\Kinnser\Software\Gateway\Kinnser.DomainModel\bin\Debug\Kinnser.Gateway.DataLayer.dll.config
+D:\Kinnser\Software\Gateway\Kinnser.DomainModel\bin\Debug\Kinnser.Gateway.Framework.pdb
+D:\Kinnser\Software\Gateway\Kinnser.DomainModel\bin\Debug\Kinnser.Gateway.Interfaces.pdb
+D:\Kinnser\Software\Gateway\Kinnser.DomainModel\bin\Debug\EntityFramework.xml
+D:\Kinnser\Software\Gateway\Kinnser.DomainModel\obj\Debug\Kinnser.DomainModel.csprojResolveAssemblyReference.cache
+D:\Kinnser\Software\Gateway\Kinnser.DomainModel\obj\Debug\Kinnser.DomainModel.dll
+D:\Kinnser\Software\Gateway\Kinnser.DomainModel\obj\Debug\Kinnser.DomainModel.pdb

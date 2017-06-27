@@ -1,0 +1,25 @@
+{
+    "locale": "en-US",
+    "items": [
+        { "key": "System.Loading", "value": "Processing, please wait..." },
+
+        { "key": "Welcome.Header", "value": "Welcome to Kinnser Software" },
+        
+        { "key": "MessageBox.DefaultHeader", "value": "Note!" },
+        { "key": "MessageBox.QuestionHeader", "value": "Question" },
+        { "key": "MessageBox.DefaultMessage", "value": "Are you sure" },
+
+        { "key": "Login.Page.Header", "value": "Kinnser Login" },
+        { "key": "Login.UsernameNotValid", "value": "The username does not match the validation requirements" },
+        { "key": "Login.AreyouSureSignOut", "value": "Are you sure you want to sign out?" },
+        { "key": "Login.Username.Label", "value": "User Name / User Phrase" },
+        { "key": "Login.Username.Placeholder", "value": "e.g. joes fun house" },
+        { "key": "Login.Password.Label", "value": "Password / Pass Phrase" },
+        { "key": "Login.Password.Placeholder", "value": "e.g. this is a password" },
+        { "key": "Login.SubmitButton.Label", "value": "Submit" },
+        { "key": "Login.ForgotPassword.Label", "value": "I forgot my password" },
+        { "key": "Login.UnlockAccount.Label", "value": "Unlock Account" },
+
+        { "key": "Security.SignIn.Label", "value": "Sign In" }
+    ]
+}

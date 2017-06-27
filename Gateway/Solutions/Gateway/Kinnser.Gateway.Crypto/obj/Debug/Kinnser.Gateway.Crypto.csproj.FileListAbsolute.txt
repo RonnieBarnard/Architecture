@@ -1,0 +1,11 @@
+D:\Kinnser\Software\Gateway\Solutions\Gateway\Kinnser.Gateway.Crypto\bin\Debug\Kinnser.Gateway.Crypto.dll
+D:\Kinnser\Software\Gateway\Solutions\Gateway\Kinnser.Gateway.Crypto\bin\Debug\Kinnser.Gateway.Crypto.pdb
+D:\Kinnser\Software\Gateway\Solutions\Gateway\Kinnser.Gateway.Crypto\bin\Debug\Kinnser.Gateway.Framework.dll
+D:\Kinnser\Software\Gateway\Solutions\Gateway\Kinnser.Gateway.Crypto\bin\Debug\Kinnser.Gateway.Interfaces.dll
+D:\Kinnser\Software\Gateway\Solutions\Gateway\Kinnser.Gateway.Crypto\bin\Debug\Newtonsoft.Json.dll
+D:\Kinnser\Software\Gateway\Solutions\Gateway\Kinnser.Gateway.Crypto\bin\Debug\Kinnser.Gateway.Framework.pdb
+D:\Kinnser\Software\Gateway\Solutions\Gateway\Kinnser.Gateway.Crypto\bin\Debug\Kinnser.Gateway.Interfaces.pdb
+D:\Kinnser\Software\Gateway\Solutions\Gateway\Kinnser.Gateway.Crypto\bin\Debug\Newtonsoft.Json.xml
+D:\Kinnser\Software\Gateway\Solutions\Gateway\Kinnser.Gateway.Crypto\obj\Debug\Kinnser.Gateway.Crypto.csprojResolveAssemblyReference.cache
+D:\Kinnser\Software\Gateway\Solutions\Gateway\Kinnser.Gateway.Crypto\obj\Debug\Kinnser.Gateway.Crypto.dll
+D:\Kinnser\Software\Gateway\Solutions\Gateway\Kinnser.Gateway.Crypto\obj\Debug\Kinnser.Gateway.Crypto.pdb

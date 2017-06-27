@@ -1,0 +1,102 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinnser.Gateway", "..\..\Kinnser.Gateway\Kinnser.Gateway\Kinnser.Gateway.csproj", "{829410BB-EAB5-44F6-8599-08D8A453ECC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinnser.Gateway.Tests", "..\..\Kinnser.Gateway\Kinnser.Gateway.Tests\Kinnser.Gateway.Tests.csproj", "{B46F83C0-53B2-4BD6-AFB9-62D0BB6D24FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{40634C0B-BCB2-4A56-B9E9-A575B3DBC49D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{85EC75D8-691D-4676-8927-007D25641566}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Layer", "Data Layer", "{2B2517AB-AE1F-4CC5-B140-241B895094E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinnser.Gateway.Framework", "..\..\Kinnser.Gateway\Kinnser.Gateway.Framework\Kinnser.Gateway.Framework.csproj", "{D9394F72-692A-4BA4-9F6C-AEC1C03DD448}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinnser.Gateway.DataLayer", "..\..\Kinnser.Gateway\Kinnser.Gateway.DataLayer\Kinnser.Gateway.DataLayer.csproj", "{16C67322-C837-41BE-A33B-22C8C5549E56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinnser.Gateway.Interfaces", "..\..\Kinnser.Gateway\Kinnser.Gateway.Interfaces\Kinnser.Gateway.Interfaces.csproj", "{4B185FCE-076B-4F80-8684-0BB7400D99B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinnser.Gateway.API", "..\..\Kinnser.Gateway\Kinnser.Gateway.API\Kinnser.Gateway.API.csproj", "{F52E03ED-162A-453F-A6F4-A74B39FBDE5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinnser.Gateway.Crypto", "Kinnser.Gateway.Crypto\Kinnser.Gateway.Crypto.csproj", "{66DBFC53-9CE2-41A8-B49B-F8BB1EFC6F63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain Model", "Domain Model", "{2C28D446-3929-4C25-8683-450AB891F2AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinnser.DomainModel", "..\..\Kinnser.DomainModel\Kinnser.DomainModel.csproj", "{96B1A755-4D51-4B4B-AE99-27DF1F9654CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinnser.Common", "..\..\Kinnser.Common\Kinnser.Common.csproj", "{C45DC426-598F-4B5D-9D21-8FFFB4B4AB1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinnser.Gateway.Repositories", "..\..\Kinnser.Gateway\Kinnser.Gateway.Repositories\Kinnser.Gateway.Repositories.csproj", "{571A391A-46E0-460D-9033-5E745F800BF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rules", "Rules", "{22E086A8-A18F-4A8D-A5D4-2283927606C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinnser.Gateway.Rules", "..\..\Kinnser.Gateway\Kinnser.Gateway.Rules\Kinnser.Gateway.Rules.csproj", "{281BF7F2-FADC-4905-8F2C-21F332C05E94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{829410BB-EAB5-44F6-8599-08D8A453ECC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829410BB-EAB5-44F6-8599-08D8A453ECC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829410BB-EAB5-44F6-8599-08D8A453ECC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829410BB-EAB5-44F6-8599-08D8A453ECC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B46F83C0-53B2-4BD6-AFB9-62D0BB6D24FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B46F83C0-53B2-4BD6-AFB9-62D0BB6D24FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B46F83C0-53B2-4BD6-AFB9-62D0BB6D24FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B46F83C0-53B2-4BD6-AFB9-62D0BB6D24FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9394F72-692A-4BA4-9F6C-AEC1C03DD448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9394F72-692A-4BA4-9F6C-AEC1C03DD448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9394F72-692A-4BA4-9F6C-AEC1C03DD448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9394F72-692A-4BA4-9F6C-AEC1C03DD448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C67322-C837-41BE-A33B-22C8C5549E56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C67322-C837-41BE-A33B-22C8C5549E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C67322-C837-41BE-A33B-22C8C5549E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C67322-C837-41BE-A33B-22C8C5549E56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B185FCE-076B-4F80-8684-0BB7400D99B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B185FCE-076B-4F80-8684-0BB7400D99B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B185FCE-076B-4F80-8684-0BB7400D99B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B185FCE-076B-4F80-8684-0BB7400D99B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F52E03ED-162A-453F-A6F4-A74B39FBDE5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F52E03ED-162A-453F-A6F4-A74B39FBDE5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F52E03ED-162A-453F-A6F4-A74B39FBDE5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F52E03ED-162A-453F-A6F4-A74B39FBDE5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66DBFC53-9CE2-41A8-B49B-F8BB1EFC6F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66DBFC53-9CE2-41A8-B49B-F8BB1EFC6F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66DBFC53-9CE2-41A8-B49B-F8BB1EFC6F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66DBFC53-9CE2-41A8-B49B-F8BB1EFC6F63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96B1A755-4D51-4B4B-AE99-27DF1F9654CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B1A755-4D51-4B4B-AE99-27DF1F9654CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B1A755-4D51-4B4B-AE99-27DF1F9654CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B1A755-4D51-4B4B-AE99-27DF1F9654CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C45DC426-598F-4B5D-9D21-8FFFB4B4AB1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C45DC426-598F-4B5D-9D21-8FFFB4B4AB1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C45DC426-598F-4B5D-9D21-8FFFB4B4AB1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C45DC426-598F-4B5D-9D21-8FFFB4B4AB1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{571A391A-46E0-460D-9033-5E745F800BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{571A391A-46E0-460D-9033-5E745F800BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{571A391A-46E0-460D-9033-5E745F800BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{571A391A-46E0-460D-9033-5E745F800BF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{281BF7F2-FADC-4905-8F2C-21F332C05E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{281BF7F2-FADC-4905-8F2C-21F332C05E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{281BF7F2-FADC-4905-8F2C-21F332C05E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{281BF7F2-FADC-4905-8F2C-21F332C05E94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D9394F72-692A-4BA4-9F6C-AEC1C03DD448} = {40634C0B-BCB2-4A56-B9E9-A575B3DBC49D}
+		{16C67322-C837-41BE-A33B-22C8C5549E56} = {2B2517AB-AE1F-4CC5-B140-241B895094E7}
+		{4B185FCE-076B-4F80-8684-0BB7400D99B8} = {85EC75D8-691D-4676-8927-007D25641566}
+		{66DBFC53-9CE2-41A8-B49B-F8BB1EFC6F63} = {85EC75D8-691D-4676-8927-007D25641566}
+		{96B1A755-4D51-4B4B-AE99-27DF1F9654CC} = {2C28D446-3929-4C25-8683-450AB891F2AB}
+		{C45DC426-598F-4B5D-9D21-8FFFB4B4AB1E} = {85EC75D8-691D-4676-8927-007D25641566}
+		{571A391A-46E0-460D-9033-5E745F800BF4} = {2C28D446-3929-4C25-8683-450AB891F2AB}
+		{281BF7F2-FADC-4905-8F2C-21F332C05E94} = {22E086A8-A18F-4A8D-A5D4-2283927606C0}
+	EndGlobalSection
+EndGlobal
